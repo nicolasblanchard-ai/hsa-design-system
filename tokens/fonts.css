@@ -1,8 +1,41 @@
-/* Barlow + Barlow Semi Condensed — Google Fonts, SIL OFL.
-   No binaries were delivered with the brand kit; the system loads them from the
-   Google Fonts CDN. Drop self-hosted woff2 files into assets/fonts/ and replace
-   this import with @font-face rules if the brand moves to self-hosting. */
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Semi+Condensed:wght@500;600;700;800&display=swap");
+/* Barlow + Barlow Semi Condensed — self-hosted from assets/fonts/ (SIL OFL 1.1, see OFL.txt). */
+
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Thin.ttf") format("truetype"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-ThinItalic.ttf") format("truetype"); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-ExtraLight.ttf") format("truetype"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-ExtraLightItalic.ttf") format("truetype"); font-weight: 200; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Light.ttf") format("truetype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-LightItalic.ttf") format("truetype"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-MediumItalic.ttf") format("truetype"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-SemiBoldItalic.ttf") format("truetype"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-BoldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-ExtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-ExtraBoldItalic.ttf") format("truetype"); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-Black.ttf") format("truetype"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../assets/fonts/barlow/Barlow-BlackItalic.ttf") format("truetype"); font-weight: 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Thin.ttf") format("truetype"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-ThinItalic.ttf") format("truetype"); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-ExtraLight.ttf") format("truetype"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-ExtraLightItalic.ttf") format("truetype"); font-weight: 200; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Light.ttf") format("truetype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-LightItalic.ttf") format("truetype"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-MediumItalic.ttf") format("truetype"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-SemiBoldItalic.ttf") format("truetype"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-BoldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-ExtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-ExtraBoldItalic.ttf") format("truetype"); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Black.ttf") format("truetype"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-BlackItalic.ttf") format("truetype"); font-weight: 900; font-style: italic; font-display: swap; }
 
 :root {
   --font-display: "Barlow Semi Condensed", "Barlow", Verdana, sans-serif;
