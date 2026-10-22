@@ -13,7 +13,15 @@
             0,
             29,
             53
-          ]
+          ],
+          "cmyk": [
+            100,
+            73,
+            27,
+            80
+          ],
+          "pantone_coated": "PANTONE 289 C",
+          "pantone_uncoated": "PANTONE 282 U"
         },
         {
           "name": "Mint Green",
@@ -23,7 +31,15 @@
             84,
             247,
             190
-          ]
+          ],
+          "cmyk": [
+            53,
+            0,
+            45,
+            0
+          ],
+          "pantone_coated": "PANTONE 353 C",
+          "pantone_uncoated": "PANTONE 352 U"
         },
         {
           "name": "White",
@@ -48,7 +64,15 @@
             18,
             196,
             142
-          ]
+          ],
+          "cmyk": [
+            73,
+            0,
+            62,
+            0
+          ],
+          "pantone_coated": "PANTONE 2414 C",
+          "pantone_uncoated": "PANTONE 7480 U"
         },
         {
           "name": "Green Label",
@@ -68,7 +92,15 @@
             4,
             65,
             46
-          ]
+          ],
+          "cmyk": [
+            97,
+            25,
+            85,
+            72
+          ],
+          "pantone_coated": "PANTONE 3435 C",
+          "pantone_uncoated": "PANTONE 627 U"
         },
         {
           "name": "Green Tint",
@@ -123,7 +155,15 @@
             255,
             247,
             10
-          ]
+          ],
+          "cmyk": [
+            3,
+            0,
+            92,
+            0
+          ],
+          "pantone_coated": "PANTONE 3945 C",
+          "pantone_uncoated": "PANTONE 3955 U"
         },
         {
           "name": "Yellow Deep",
@@ -188,7 +228,15 @@
             251,
             152,
             0
-          ]
+          ],
+          "cmyk": [
+            0,
+            48,
+            100,
+            0
+          ],
+          "pantone_coated": "PANTONE 2012 C",
+          "pantone_uncoated": "PANTONE 130 U"
         },
         {
           "name": "Pink",
@@ -198,7 +246,15 @@
             204,
             66,
             120
-          ]
+          ],
+          "cmyk": [
+            6,
+            86,
+            16,
+            13
+          ],
+          "pantone_coated": "PANTONE 4073 C",
+          "pantone_uncoated": "PANTONE 233 U"
         },
         {
           "name": "Blue",
@@ -208,7 +264,15 @@
             0,
             161,
             210
-          ]
+          ],
+          "cmyk": [
+            76,
+            14,
+            5,
+            4
+          ],
+          "pantone_coated": "PANTONE 2389 C",
+          "pantone_uncoated": "PANTONE 639 U"
         },
         {
           "name": "Red",
@@ -218,7 +282,15 @@
             218,
             41,
             28
-          ]
+          ],
+          "cmyk": [
+            1,
+            94,
+            100,
+            4
+          ],
+          "pantone_coated": "PANTONE 485 C",
+          "pantone_uncoated": "PANTONE 2349 U"
         }
       ]
     },
@@ -233,7 +305,15 @@
             65,
             88,
             106
-          ]
+          ],
+          "cmyk": [
+            76,
+            49,
+            34,
+            40
+          ],
+          "pantone_coated": "PANTONE 7545 C",
+          "pantone_uncoated": "PANTONE 2189 U"
         },
         {
           "name": "Text Eyebrow",
@@ -427,5 +507,10 @@
         }
       ]
     }
-  ]
+  ],
+  "print": {
+    "status": "provisional",
+    "profile": "ISO Coated v2 (ECI)",
+    "note": "Confirm with a print proof before production."
+  }
 }

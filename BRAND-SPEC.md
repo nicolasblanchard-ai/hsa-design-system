@@ -95,6 +95,25 @@ Accents that punctuate the way a code editor highlights tokens. Sparse highlight
 
 Chart ramp order: mint → blue → orange → pink → yellow. Never more than five categories on one slide.
 
+### Print values (provisional)
+
+CMYK for ISO Coated v2 (ECI), colour-managed conversion. Pantone = closest Solid Coated / Uncoated match. Confirm with a print proof.
+
+| Color | Hex | CMYK | Pantone C | Pantone U |
+|---|---|---|---|---|
+| Navy | #001D35 | 100 / 73 / 27 / 80 * | 289 C | 282 U |
+| Mint Green | #54F7BE | 53 / 0 / 45 / 0 * | 353 C | 352 U |
+| Yellow | #FFF70A | 3 / 0 / 92 / 0 * | 3945 C | 3955 U |
+| Orange | #FB9800 | 0 / 48 / 100 / 0 * | 2012 C | 130 U |
+| Pink | #CC4278 | 6 / 86 / 16 / 13 | 4073 C | 233 U |
+| Blue | #00A1D2 | 76 / 14 / 5 / 4 | 2389 C | 639 U |
+| Red | #DA291C | 1 / 94 / 100 / 4 | 485 C | 2349 U |
+| Green Ink | #12C48E | 73 / 0 / 62 / 0 * | 2414 C | 7480 U |
+| Green Deep | #04412E | 97 / 25 / 85 / 72 | 3435 C | 627 U |
+| Text Body | #41586A | 76 / 49 / 34 / 40 | 7545 C | 2189 U |
+
+\* Outside the CMYK gamut — prints duller than on screen; use Pantone for brand-critical print.
+
 ---
 
 ## 3. Typography

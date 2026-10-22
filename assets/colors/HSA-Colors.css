@@ -76,3 +76,16 @@
   --chart-negative: var(--red);
   --chart-context: var(--track-grey);
 }
+
+/* Print values (provisional) — ISO Coated v2 (ECI) CMYK · Pantone C / U
+   Navy        #001D35  CMYK 100/73/27/80   PANTONE 289 C   / 282 U
+   Mint Green  #54F7BE  CMYK 53/0/45/0      PANTONE 353 C   / 352 U
+   Yellow      #FFF70A  CMYK 3/0/92/0       PANTONE 3945 C  / 3955 U
+   Orange      #FB9800  CMYK 0/48/100/0     PANTONE 2012 C  / 130 U
+   Pink        #CC4278  CMYK 6/86/16/13     PANTONE 4073 C  / 233 U
+   Blue        #00A1D2  CMYK 76/14/5/4      PANTONE 2389 C  / 639 U
+   Red         #DA291C  CMYK 1/94/100/4     PANTONE 485 C   / 2349 U
+   Green Ink   #12C48E  CMYK 73/0/62/0      PANTONE 2414 C  / 7480 U
+   Green Deep  #04412E  CMYK 97/25/85/72    PANTONE 3435 C  / 627 U
+   Text Body   #41586A  CMYK 76/49/34/40    PANTONE 7545 C  / 2189 U
+*/
