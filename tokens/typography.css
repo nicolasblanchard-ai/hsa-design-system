@@ -1,21 +1,34 @@
 :root {
-  /* Slide scale — 1920x1080. Never below 20px on a slide, footer metadata 16px. */
-  --type-cover: 150px;
-  --type-cover-compact: 122px;
-  --type-slide-title: 80px;
-  --type-figure-xl: 56px;
+  /* Role scale — named by hierarchy, not by medium. Values at 1920x1080.
+     Never below 20px on a slide; Caption 16px is the only exception. */
+  --type-display-xl: 150px;      /* Cover, poster, hero */
+  --type-display-xl-s: 122px;
+  --type-display-l: 80px;        /* Slide and page headline */
+  --type-figure: 56px;           /* Key numbers, stats, KPIs */
   --type-figure-l: 40px;
   --type-figure-m: 34px;
-  --type-subtitle: 28px;
-  --type-card-title: 32px;
-  --type-card-title-s: 27px;
-  --type-lead: 26px;
-  --type-list: 25px;
-  --type-body: 21px;
+  --type-lead: 28px;             /* Subtitle, intro paragraph */
+  --type-title: 32px;            /* Card, panel and block heading */
+  --type-title-s: 27px;
+  --type-body-l: 26px;           /* List item, emphasised paragraph */
+  --type-body-l-s: 25px;
+  --type-body: 21px;             /* Running text */
   --type-body-s: 20px;
-  --type-eyebrow: 22px;
-  --type-label: 17px;
-  --type-footer: 16px;
+  --type-overline: 22px;         /* Above every headline, with // */
+  --type-label: 17px;            /* Category, column and field labels */
+  --type-caption: 16px;          /* Footer, source note, page number */
+
+  /* Legacy aliases — kept so existing components keep working. Prefer the role names. */
+  --type-cover: var(--type-display-xl);
+  --type-cover-compact: var(--type-display-xl-s);
+  --type-slide-title: var(--type-display-l);
+  --type-figure-xl: var(--type-figure);
+  --type-subtitle: var(--type-lead);
+  --type-card-title: var(--type-title);
+  --type-card-title-s: var(--type-title-s);
+  --type-list: var(--type-body-l-s);
+  --type-eyebrow: var(--type-overline);
+  --type-footer: var(--type-caption);
 
   /* Web / document scale */
   --type-web-h1: 64px;

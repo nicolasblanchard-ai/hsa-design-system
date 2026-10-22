@@ -103,18 +103,20 @@ Chart ramp order: mint → blue → orange → pink → yellow. Never more than 
 
 Scale at 1920×1080:
 
-| Role | Font | Size | Weight | Detail |
-|---|---|---|---|---|
-| Cover title | Semi Condensed | 122-150px | 600 | line-height .94 |
-| Slide title | Semi Condensed | 80px | 600 | line-height 1.0, tracking −.005em |
-| Big figure | Semi Condensed | 150 / 56 / 52 / 40 / 34px | 600 | line-height 1 |
-| Subtitle | Barlow | 28px | 400 | line-height 1.45, max-width 1180px |
-| Card title | Barlow | 32 / 27px | 600 | |
-| Lead / list item | Barlow | 26 / 25px | 500 | line-height 1.35 |
-| Body | Barlow | 21 / 20px | 400 | line-height 1.38 |
-| Eyebrow | Barlow | 22px | 600 | tracking .2em, uppercase, preceded by // |
-| Section label | Barlow | 16-20px | 700-800 | tracking .04-.12em, uppercase |
-| Footer | Barlow | 16px | 400 | color #AEB8BE |
+Roles are named independently of where they are used. Pick by hierarchy, not by medium.
+
+| Role | Used for | Font | Size | Weight | Detail |
+|---|---|---|---|---|---|
+| Display XL | Cover, poster, hero | Semi Condensed | 122-150px | 600 | line-height .94 |
+| Display L | Slide and page headline | Semi Condensed | 80px | 600 | line-height 1.0, tracking −.005em |
+| Figure | Key numbers, stats, KPIs | Semi Condensed | 150 / 56 / 52 / 40 / 34px | 600 | line-height 1 |
+| Lead | Subtitle, intro paragraph | Barlow | 28px | 400 | line-height 1.45, max-width 1180px |
+| Title | Card, panel and block heading | Barlow | 32 / 27px | 600 | |
+| Body L | List item, emphasised paragraph | Barlow | 26 / 25px | 500 | line-height 1.35 |
+| Body | Running text | Barlow | 21 / 20px | 400 | line-height 1.38 |
+| Overline | Above every headline, with // | Barlow | 22px | 600 | tracking .2em, uppercase |
+| Label | Category, column and field labels | Barlow | 16-20px | 700-800 | tracking .04-.12em, uppercase |
+| Caption | Footer, source note, page number | Barlow | 16px | 400 | color #AEB8BE |
 
 **Floor:** never below 20px in a 1920×1080 slide, except footer metadata at 16px. 12pt minimum in print.
 **Emphasis:** bold inside body copy is Barlow 600 in #001D35, never mint. Mint is reserved for the connective word in a headline.
