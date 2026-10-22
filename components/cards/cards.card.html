@@ -1,0 +1,50 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Cards" subtitle="Top-accent, tint, dark, draft, stat, step" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Card components</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;padding:20px 24px;background:var(--surface-page);} .row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;} .grid{display:grid;gap:14px;}</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+function ds(name) {
+  for (const k of Object.getOwnPropertyNames(window)) {
+    let v; try { v = window[k]; } catch (e) { continue; }
+    if (v && typeof v === "object" && typeof v[name] === "function") return v[name];
+  }
+  return function Missing() { return <span style={{fontFamily:"var(--font-text)",color:"var(--text-faint)"}}>{name} unavailable</span>; };
+}
+
+const Card = ds("Card"), StatCard = ds("StatCard"), StepCard = ds("StepCard");
+function Demo() {
+  return (
+    <div style={{display:"flex",flexDirection:"column",gap:14}}>
+      <div className="grid" style={{gridTemplateColumns:"repeat(4, 1fr)"}}>
+        <Card variant="accent" index="01" title="Funding" style={{padding:"14px 16px"}}>Scholarship plus follow-on capital.</Card>
+        <Card variant="tint" title="Tint" style={{padding:"14px 16px"}}>Stat and input surfaces.</Card>
+        <Card variant="dark" title="Dark" style={{padding:"14px 16px"}}>Navy contrast panel.</Card>
+        <Card variant="draft" title="Draft" style={{padding:"14px 16px"}}>Unverified figures only.</Card>
+      </div>
+      <div className="grid" style={{gridTemplateColumns:"1fr 1fr 2fr"}}>
+        <StatCard value="16–20" label="companies / year" style={{padding:"14px 16px"}} />
+        <StatCard value="CHF XXm" label="raised · confirm" tone="draft" style={{padding:"14px 16px"}} />
+        <div style={{display:"flex",gap:12}}>
+          <StepCard step="1" phase="Weeks 1–4" title="Foundations" style={{flex:1,gap:10}}>Team, fit, position.</StepCard>
+          <StepCard step="→" phase="Demo Day" title="The raise" final style={{flex:1,gap:10}}>Pitch and raise.</StepCard>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>

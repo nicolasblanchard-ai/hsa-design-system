@@ -1,0 +1,39 @@
+<!-- @dsCard group="Components" viewport="700x340" name="Data" subtitle="RatioBar and DataTable" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data components</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;padding:20px 24px;background:var(--surface-page);} .row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;} .grid{display:grid;gap:14px;}</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+function ds(name) {
+  for (const k of Object.getOwnPropertyNames(window)) {
+    let v; try { v = window[k]; } catch (e) { continue; }
+    if (v && typeof v === "object" && typeof v[name] === "function") return v[name];
+  }
+  return function Missing() { return <span style={{fontFamily:"var(--font-text)",color:"var(--text-faint)"}}>{name} unavailable</span>; };
+}
+
+const RatioBar = ds("RatioBar"), DataTable = ds("DataTable");
+function Demo() {
+  return (
+    <div style={{display:"flex",flexDirection:"column",gap:16}}>
+      <RatioBar label="United States" percent={40} note="1 : 4 spend" />
+      <RatioBar label="Switzerland" percent={15} note="1 : 9 spend" />
+      <DataTable columns={["Metric","Batch 1","Batch 2"]} rows={[["Applications","412","6'000"],["Selected","8","10"]]} />
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>

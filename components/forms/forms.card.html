@@ -1,0 +1,39 @@
+<!-- @dsCard group="Components" viewport="700x180" name="Forms" subtitle="Input, Select, submit row" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Form components</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;padding:20px 24px;background:var(--surface-page);} .row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;} .grid{display:grid;gap:14px;}</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+function ds(name) {
+  for (const k of Object.getOwnPropertyNames(window)) {
+    let v; try { v = window[k]; } catch (e) { continue; }
+    if (v && typeof v === "object" && typeof v[name] === "function") return v[name];
+  }
+  return function Missing() { return <span style={{fontFamily:"var(--font-text)",color:"var(--text-faint)"}}>{name} unavailable</span>; };
+}
+
+const Input = ds("Input"), Select = ds("Select"), Button = ds("Button");
+function Demo() {
+  return (
+    <div className="grid" style={{gridTemplateColumns:"1.2fr 1fr auto",alignItems:"end"}}>
+      <Input label="Startup name" placeholder="Acme Photonics AG" />
+      <Select label="Stage" options={["Pre-seed","Seed","Series A"]} />
+      <Button variant="cta">Submit</Button>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+</script>
+</body>
+</html>
