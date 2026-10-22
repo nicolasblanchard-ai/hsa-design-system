@@ -1,0 +1,431 @@
+{
+  "name": "HSG START Accelerator",
+  "version": "1.2",
+  "groups": [
+    {
+      "name": "Core",
+      "colors": [
+        {
+          "name": "Navy",
+          "token": "--navy",
+          "hex": "#001D35",
+          "rgb": [
+            0,
+            29,
+            53
+          ]
+        },
+        {
+          "name": "Mint Green",
+          "token": "--green",
+          "hex": "#54F7BE",
+          "rgb": [
+            84,
+            247,
+            190
+          ]
+        },
+        {
+          "name": "White",
+          "token": "--white",
+          "hex": "#FFFFFF",
+          "rgb": [
+            255,
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Green family",
+      "colors": [
+        {
+          "name": "Green Ink",
+          "token": "--green-ink",
+          "hex": "#12C48E",
+          "rgb": [
+            18,
+            196,
+            142
+          ]
+        },
+        {
+          "name": "Green Label",
+          "token": "--green-label",
+          "hex": "#0F9E73",
+          "rgb": [
+            15,
+            158,
+            115
+          ]
+        },
+        {
+          "name": "Green Deep",
+          "token": "--green-deep",
+          "hex": "#04412E",
+          "rgb": [
+            4,
+            65,
+            46
+          ]
+        },
+        {
+          "name": "Green Tint",
+          "token": "--green-tint",
+          "hex": "#F3FBF7",
+          "rgb": [
+            243,
+            251,
+            247
+          ]
+        },
+        {
+          "name": "Green Tint 2",
+          "token": "--green-tint-2",
+          "hex": "#EAFBF4",
+          "rgb": [
+            234,
+            251,
+            244
+          ]
+        },
+        {
+          "name": "Green Border",
+          "token": "--green-border",
+          "hex": "#D6F2E6",
+          "rgb": [
+            214,
+            242,
+            230
+          ]
+        },
+        {
+          "name": "Green Rule",
+          "token": "--green-rule",
+          "hex": "#E1F3EA",
+          "rgb": [
+            225,
+            243,
+            234
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yellow",
+      "colors": [
+        {
+          "name": "Yellow",
+          "token": "--yellow",
+          "hex": "#FFF70A",
+          "rgb": [
+            255,
+            247,
+            10
+          ]
+        },
+        {
+          "name": "Yellow Deep",
+          "token": "--yellow-deep",
+          "hex": "#EFDF12",
+          "rgb": [
+            239,
+            223,
+            18
+          ]
+        },
+        {
+          "name": "Yellow Bg",
+          "token": "--yellow-bg",
+          "hex": "#FBF3C5",
+          "rgb": [
+            251,
+            243,
+            197
+          ]
+        },
+        {
+          "name": "Yellow Border",
+          "token": "--yellow-border",
+          "hex": "#EAD98A",
+          "rgb": [
+            234,
+            217,
+            138
+          ]
+        },
+        {
+          "name": "Yellow Ink",
+          "token": "--yellow-ink",
+          "hex": "#8A6D00",
+          "rgb": [
+            138,
+            109,
+            0
+          ]
+        },
+        {
+          "name": "Ink Black",
+          "token": "--ink-black",
+          "hex": "#12130F",
+          "rgb": [
+            18,
+            19,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Secondary",
+      "colors": [
+        {
+          "name": "Orange",
+          "token": "--orange",
+          "hex": "#FB9800",
+          "rgb": [
+            251,
+            152,
+            0
+          ]
+        },
+        {
+          "name": "Pink",
+          "token": "--pink",
+          "hex": "#CC4278",
+          "rgb": [
+            204,
+            66,
+            120
+          ]
+        },
+        {
+          "name": "Blue",
+          "token": "--blue",
+          "hex": "#00A1D2",
+          "rgb": [
+            0,
+            161,
+            210
+          ]
+        },
+        {
+          "name": "Red",
+          "token": "--red",
+          "hex": "#DA291C",
+          "rgb": [
+            218,
+            41,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text on light",
+      "colors": [
+        {
+          "name": "Text Body",
+          "token": "--text-body",
+          "hex": "#41586A",
+          "rgb": [
+            65,
+            88,
+            106
+          ]
+        },
+        {
+          "name": "Text Eyebrow",
+          "token": "--text-eyebrow",
+          "hex": "#33424C",
+          "rgb": [
+            51,
+            66,
+            76
+          ]
+        },
+        {
+          "name": "Text Muted",
+          "token": "--text-muted",
+          "hex": "#6E828E",
+          "rgb": [
+            110,
+            130,
+            142
+          ]
+        },
+        {
+          "name": "Text Faint",
+          "token": "--text-faint",
+          "hex": "#9AA7AD",
+          "rgb": [
+            154,
+            167,
+            173
+          ]
+        },
+        {
+          "name": "Text Footer",
+          "token": "--text-footer",
+          "hex": "#AEB8BE",
+          "rgb": [
+            174,
+            184,
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text on navy",
+      "colors": [
+        {
+          "name": "On Navy Body",
+          "token": "--on-navy-body",
+          "hex": "#AFC7D4",
+          "rgb": [
+            175,
+            199,
+            212
+          ]
+        },
+        {
+          "name": "On Navy Soft",
+          "token": "--on-navy-soft",
+          "hex": "#E6EDF1",
+          "rgb": [
+            230,
+            237,
+            241
+          ]
+        },
+        {
+          "name": "On Navy Muted",
+          "token": "--on-navy-muted",
+          "hex": "#7FA6BC",
+          "rgb": [
+            127,
+            166,
+            188
+          ]
+        },
+        {
+          "name": "On Navy Rule",
+          "token": "--on-navy-rule",
+          "hex": "#274157",
+          "rgb": [
+            39,
+            65,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surfaces & borders",
+      "colors": [
+        {
+          "name": "Surface Card",
+          "token": "--surface-card",
+          "hex": "#FAFCFB",
+          "rgb": [
+            250,
+            252,
+            251
+          ]
+        },
+        {
+          "name": "Surface Inactive",
+          "token": "--surface-inactive",
+          "hex": "#F5F7F5",
+          "rgb": [
+            245,
+            247,
+            245
+          ]
+        },
+        {
+          "name": "Border",
+          "token": "--border",
+          "hex": "#E7ECEA",
+          "rgb": [
+            231,
+            236,
+            234
+          ]
+        },
+        {
+          "name": "Border Inactive",
+          "token": "--border-inactive",
+          "hex": "#CBD3CC",
+          "rgb": [
+            203,
+            211,
+            204
+          ]
+        },
+        {
+          "name": "Border Strong",
+          "token": "--border-strong",
+          "hex": "#26414F",
+          "rgb": [
+            38,
+            65,
+            79
+          ]
+        },
+        {
+          "name": "Hatch A",
+          "token": "--hatch-a",
+          "hex": "#F2F5F3",
+          "rgb": [
+            242,
+            245,
+            243
+          ]
+        },
+        {
+          "name": "Hatch B",
+          "token": "--hatch-b",
+          "hex": "#E9EEEB",
+          "rgb": [
+            233,
+            238,
+            235
+          ]
+        },
+        {
+          "name": "Numeral Ghost",
+          "token": "--numeral-ghost",
+          "hex": "#CBD9D3",
+          "rgb": [
+            203,
+            217,
+            211
+          ]
+        },
+        {
+          "name": "Track",
+          "token": "--track",
+          "hex": "#E4E9EC",
+          "rgb": [
+            228,
+            233,
+            236
+          ]
+        },
+        {
+          "name": "Track Grey",
+          "token": "--track-grey",
+          "hex": "#C4D0D6",
+          "rgb": [
+            196,
+            208,
+            214
+          ]
+        }
+      ]
+    }
+  ]
+}

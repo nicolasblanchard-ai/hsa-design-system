@@ -1,0 +1,50 @@
+GIMP Palette
+Name: HSG START Accelerator
+Columns: 6
+#
+# Core
+  0  29  53	Navy #001D35
+ 84 247 190	Mint Green #54F7BE
+255 255 255	White #FFFFFF
+# Green family
+ 18 196 142	Green Ink #12C48E
+ 15 158 115	Green Label #0F9E73
+  4  65  46	Green Deep #04412E
+243 251 247	Green Tint #F3FBF7
+234 251 244	Green Tint 2 #EAFBF4
+214 242 230	Green Border #D6F2E6
+225 243 234	Green Rule #E1F3EA
+# Yellow
+255 247  10	Yellow #FFF70A
+239 223  18	Yellow Deep #EFDF12
+251 243 197	Yellow Bg #FBF3C5
+234 217 138	Yellow Border #EAD98A
+138 109   0	Yellow Ink #8A6D00
+ 18  19  15	Ink Black #12130F
+# Secondary
+251 152   0	Orange #FB9800
+204  66 120	Pink #CC4278
+  0 161 210	Blue #00A1D2
+218  41  28	Red #DA291C
+# Text on light
+ 65  88 106	Text Body #41586A
+ 51  66  76	Text Eyebrow #33424C
+110 130 142	Text Muted #6E828E
+154 167 173	Text Faint #9AA7AD
+174 184 190	Text Footer #AEB8BE
+# Text on navy
+175 199 212	On Navy Body #AFC7D4
+230 237 241	On Navy Soft #E6EDF1
+127 166 188	On Navy Muted #7FA6BC
+ 39  65  87	On Navy Rule #274157
+# Surfaces & borders
+250 252 251	Surface Card #FAFCFB
+245 247 245	Surface Inactive #F5F7F5
+231 236 234	Border #E7ECEA
+203 211 204	Border Inactive #CBD3CC
+ 38  65  79	Border Strong #26414F
+242 245 243	Hatch A #F2F5F3
+233 238 235	Hatch B #E9EEEB
+203 217 211	Numeral Ghost #CBD9D3
+228 233 236	Track #E4E9EC
+196 208 214	Track Grey #C4D0D6
