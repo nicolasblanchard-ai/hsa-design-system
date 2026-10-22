@@ -1,0 +1,78 @@
+:root {
+  /* ---- Core ---- */
+  --navy: #001D35;
+  --green: #54F7BE;
+  --white: #FFFFFF;
+
+  /* ---- Green family ---- */
+  --green-ink: #12C48E;
+  --green-label: #0F9E73;
+  --green-deep: #04412E;
+  --green-tint: #F3FBF7;
+  --green-tint-2: #EAFBF4;
+  --green-border: #D6F2E6;
+  --green-rule: #E1F3EA;
+
+  /* ---- Yellow — highlight and web CTA ---- */
+  --yellow: #FFF70A;
+  --yellow-deep: #EFDF12;
+  --yellow-bg: #FBF3C5;
+  --yellow-border: #EAD98A;
+  --yellow-ink: #8A6D00;
+  --ink-black: #12130F;
+
+  /* ---- Secondary "syntax highlighting" — sparse accents, chart ramp ---- */
+  --orange: #FB9800;
+  --pink: #CC4278;
+  --blue: #00A1D2;
+  --red: #DA291C;
+
+  /* ---- Text on light ---- */
+  --text-primary: #001D35;
+  --text-body: #41586A;
+  --text-eyebrow: #33424C;
+  --text-muted: #6E828E;
+  --text-faint: #9AA7AD;
+  --text-footer: #AEB8BE;
+
+  /* ---- Text on navy ---- */
+  --on-navy: #FFFFFF;
+  --on-navy-body: #AFC7D4;
+  --on-navy-soft: #E6EDF1;
+  --on-navy-muted: #7FA6BC;
+  --on-navy-rule: #274157;
+
+  /* ---- Surfaces & borders ---- */
+  --surface-page: #FFFFFF;
+  --surface-card: #FAFCFB;
+  --surface-inactive: #F5F7F5;
+  --surface-dark: #001D35;
+  --border: #E7ECEA;
+  --border-inactive: #CBD3CC;
+  --border-strong: #26414F;
+  --hatch-a: #F2F5F3;
+  --hatch-b: #E9EEEB;
+  --numeral-ghost: #CBD9D3;
+  --track: #E4E9EC;
+  --track-grey: #C4D0D6;
+
+  /* ---- Semantic actions ---- */
+  --action-web: var(--yellow);
+  --action-web-hover: var(--yellow-deep);
+  --action-web-ink: var(--ink-black);
+  --action-deck: var(--green);
+  --action-deck-hover: var(--green-ink);
+  --action-deck-ink: var(--green-deep);
+  --focus-ring: var(--green-ink);
+  --link: var(--green-label);
+  --link-hover: var(--green-ink);
+
+  /* ---- Chart ramp, in order ---- */
+  --chart-1: var(--green);
+  --chart-2: var(--blue);
+  --chart-3: var(--orange);
+  --chart-4: var(--pink);
+  --chart-5: var(--yellow);
+  --chart-negative: var(--red);
+  --chart-context: var(--track-grey);
+}

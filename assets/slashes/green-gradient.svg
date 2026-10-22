@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1064.335" height="1084.494" viewBox="0 0 1064.335 1084.494">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53f7be"></stop>
+      <stop offset="1" stop-color="#fff"></stop>
+    </linearGradient>
+  </defs>
+  <g id="whitelist_slashes_green" transform="translate(-81.191 -50)">
+    <path id="Pfad_1691" data-name="Pfad 1691" d="M101.165,1134.494h179.7q17.048,0,21.69-13.947L700.738,71.668Q708.449,50,685.23,50h-179.7q-17.048,0-21.69,13.947L83.314,1112.8c-5.184,14.489-1.063,21.69,14.445,21.69h3.405Z" transform="translate(0 0)" fill="url(#linear-gradient)"></path>
+    <path id="Pfad_1692" data-name="Pfad 1692" d="M303.975,1134.494h179.7q17.016,0,21.69-13.947L903.548,71.668Q911.259,50,888.04,50h-179.7q-17.048,0-21.69,13.947L288.488,1112.8q-7.776,21.733,15.508,21.69" transform="translate(240.054 0)" fill="url(#linear-gradient)"></path>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+:root {
+  --radius-card: 16px;
+  --radius-band: 14px;
+  --radius-tile: 12px;
+  --radius-chip: 10px;
+  --radius-button: 8px;
+  --radius-pill: 999px;
+  --radius-accent-card: 0 0 14px 14px; /* top-accent cards keep a square mint edge */
+}

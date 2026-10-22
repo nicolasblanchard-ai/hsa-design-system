@@ -1,0 +1,44 @@
+:root {
+  /* Slide scale — 1920x1080. Never below 20px on a slide, footer metadata 16px. */
+  --type-cover: 150px;
+  --type-cover-compact: 122px;
+  --type-slide-title: 80px;
+  --type-figure-xl: 56px;
+  --type-figure-l: 40px;
+  --type-figure-m: 34px;
+  --type-subtitle: 28px;
+  --type-card-title: 32px;
+  --type-card-title-s: 27px;
+  --type-lead: 26px;
+  --type-list: 25px;
+  --type-body: 21px;
+  --type-body-s: 20px;
+  --type-eyebrow: 22px;
+  --type-label: 17px;
+  --type-footer: 16px;
+
+  /* Web / document scale */
+  --type-web-h1: 64px;
+  --type-web-h2: 44px;
+  --type-web-h3: 28px;
+  --type-web-body: 19px;
+  --type-web-small: 16px;
+  --type-doc-body: 11pt;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 800;
+
+  --leading-display: 1.0;
+  --leading-cover: 0.94;
+  --leading-tight: 1.05;
+  --leading-snug: 1.35;
+  --leading-body: 1.45;
+
+  --tracking-display: -0.005em;
+  --tracking-eyebrow: 0.2em;
+  --tracking-label: 0.08em;
+  --tracking-slash: -0.18em;
+}

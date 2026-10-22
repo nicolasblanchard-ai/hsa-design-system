@@ -1,0 +1,26 @@
+:root {
+  /* 4px spine — binding. Every gap, padding and offset comes from these steps. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 28px;
+  --space-7: 32px;
+  --space-8: 44px;
+  --space-9: 72px;
+
+  /* Layout constants */
+  --slide-width: 1920px;
+  --slide-height: 1080px;
+  --slide-margin: 72px;
+  --slide-rule: 7px;
+  --slide-eyebrow-y: 60px;
+  --slide-title-y: 150px;
+  --slide-footer-y: 40px;
+  --slide-footer-gap: 28px;
+  --measure-subtitle: 1180px;
+  --measure-doc: 68ch;
+  --doc-margin: 25mm;
+  --hit-target: 44px;
+}

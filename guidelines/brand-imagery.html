@@ -1,0 +1,28 @@
+<!-- @dsCard group="Brand" viewport="700x230" name="Gradients & imagery" subtitle="green↔white fields, 30% #54F7BE overlay on photography" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 18px 22px; background: var(--surface-page); font-family: var(--font-text); }
+  .row { display: flex; gap: 12px; align-items: stretch; }
+  .col { display: flex; flex-direction: column; }
+  .sw { flex: 1; border-radius: var(--radius-tile); overflow: hidden; border: 1px solid var(--border); }
+  .sw i { display: block; height: 56px; }
+  .sw b { display: block; font-size: 13px; font-weight: 600; padding: 8px 10px 2px; color: var(--text-primary); }
+  .sw code { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; padding: 0 10px 9px; color: var(--text-muted); }
+  
+</style>
+</head>
+<body>
+<div class="col" style="gap:12px;">
+  <img src="../assets/examples/linkedin-header-01.png" alt="Canonical header composition" style="width:100%;border-radius:var(--radius-tile);">
+  <div class="row">
+    <img src="../assets/gradients/green-to-white-16x9.png" alt="green to white" style="flex:1;height:56px;object-fit:cover;border-radius:8px;">
+    <img src="../assets/gradients/white-to-green-16x9.png" alt="white to green" style="flex:1;height:56px;object-fit:cover;border-radius:8px;">
+    <div style="flex:1;height:56px;border-radius:8px;background:linear-gradient(0deg, rgba(84,247,190,.3), rgba(84,247,190,.3)), var(--hatch);display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-muted);">photo + 30% mint</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!-- @dsCard group="Spacing" viewport="700x150" name="Elevation - no shadows" subtitle="Depth is a surface step: white -> #FAFCFB -> tint -> navy" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 18px 22px; background: var(--surface-page); font-family: var(--font-text); }
+  .row { display: flex; gap: 12px; align-items: stretch; }
+  .col { display: flex; flex-direction: column; }
+  .sw { flex: 1; border-radius: var(--radius-tile); overflow: hidden; border: 1px solid var(--border); }
+  .sw i { display: block; height: 56px; }
+  .sw b { display: block; font-size: 13px; font-weight: 600; padding: 8px 10px 2px; color: var(--text-primary); }
+  .sw code { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; padding: 0 10px 9px; color: var(--text-muted); }
+  
+</style>
+</head>
+<body>
+<div class="row">
+  <div style="flex:1;background:#FFFFFF;border:1px solid var(--border);border-radius:var(--radius-tile);padding:20px 16px;font-size:14px;">elevation-0<br><span style="color:var(--text-muted);">page</span></div>
+  <div style="flex:1;background:var(--surface-card);border:1px solid var(--border);border-radius:var(--radius-tile);padding:20px 16px;font-size:14px;">elevation-1<br><span style="color:var(--text-muted);">card</span></div>
+  <div style="flex:1;background:var(--green-tint);border:1px solid var(--green-border);border-radius:var(--radius-tile);padding:20px 16px;font-size:14px;">elevation-2<br><span style="color:var(--text-muted);">tint</span></div>
+  <div style="flex:1;background:var(--navy);border-radius:var(--radius-tile);padding:20px 16px;font-size:14px;color:#fff;">elevation-3<br><span style="color:var(--on-navy-muted);">navy</span></div>
+</div>
+</body>
+</html>

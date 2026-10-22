@@ -1,0 +1,28 @@
+<!-- @dsCard group="Colors" viewport="700x240" name="Text on light" subtitle="Six weights from headline navy down to footer grey" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 18px 22px; background: var(--surface-page); font-family: var(--font-text); }
+  .row { display: flex; gap: 12px; align-items: stretch; }
+  .col { display: flex; flex-direction: column; }
+  .sw { flex: 1; border-radius: var(--radius-tile); overflow: hidden; border: 1px solid var(--border); }
+  .sw i { display: block; height: 56px; }
+  .sw b { display: block; font-size: 13px; font-weight: 600; padding: 8px 10px 2px; color: var(--text-primary); }
+  .sw code { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; padding: 0 10px 9px; color: var(--text-muted); }
+  
+</style>
+</head>
+<body>
+<div class="col" style="gap:6px;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:21px;font-weight:600;color:#001D35;">Headlines — text-primary</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#001D35</code></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:20px;color:#41586A;">Body copy — text-body</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#41586A</code></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:19px;font-weight:600;color:#33424C;">Eyebrow — text-eyebrow</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#33424C</code></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:18px;color:#6E828E;">Captions — text-muted</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#6E828E</code></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:18px;color:#9AA7AD;">Placeholder — text-faint</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#9AA7AD</code></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:17px;color:#AEB8BE;">Footer, slide number — text-footer</span><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E828E;">#AEB8BE</code></div>
+</div>
+</body>
+</html>

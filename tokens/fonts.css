@@ -1,0 +1,11 @@
+/* Barlow + Barlow Semi Condensed — Google Fonts, SIL OFL.
+   No binaries were delivered with the brand kit; the system loads them from the
+   Google Fonts CDN. Drop self-hosted woff2 files into assets/fonts/ and replace
+   this import with @font-face rules if the brand moves to self-hosting. */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Semi+Condensed:wght@500;600;700;800&display=swap");
+
+:root {
+  --font-display: "Barlow Semi Condensed", "Barlow", Verdana, sans-serif;
+  --font-text: "Barlow", Verdana, Helvetica, sans-serif;
+  --font-fallback-email: Verdana, Geneva, sans-serif;
+}

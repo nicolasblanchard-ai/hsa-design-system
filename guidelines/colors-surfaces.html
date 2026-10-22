@@ -1,0 +1,21 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Surfaces & borders" subtitle="Card fills, inactive states, borders and the placeholder hatch" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 18px 22px; background: var(--surface-page); font-family: var(--font-text); }
+  .row { display: flex; gap: 12px; align-items: stretch; }
+  .col { display: flex; flex-direction: column; }
+  .sw { flex: 1; border-radius: var(--radius-tile); overflow: hidden; border: 1px solid var(--border); }
+  .sw i { display: block; height: 56px; }
+  .sw b { display: block; font-size: 13px; font-weight: 600; padding: 8px 10px 2px; color: var(--text-primary); }
+  .sw code { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; padding: 0 10px 9px; color: var(--text-muted); }
+  
+</style>
+</head>
+<body>
+<div class="row"><div class="sw"><i style="background:#FAFCFB;"></i><b>surface-card</b><code>#FAFCFB</code></div><div class="sw"><i style="background:#F5F7F5;"></i><b>surface-inactive</b><code>#F5F7F5</code></div><div class="sw"><i style="background:#E7ECEA;"></i><b>border</b><code>#E7ECEA</code></div><div class="sw"><i style="background:#CBD3CC;"></i><b>border-inactive</b><code>#CBD3CC</code></div><div class="sw"><i style="background:repeating-linear-gradient(45deg,#F2F5F3 0 8px,#E9EEEB 8px 16px);"></i><b>hatch</b><code>#F2F5F3 · #E9EEEB</code></div><div class="sw"><i style="background:#CBD9D3;"></i><b>numeral-ghost</b><code>#CBD9D3</code></div></div>
+</body>
+</html>
